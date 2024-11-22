@@ -1,129 +1,139 @@
 <!DOCTYPE html>
+<!-- This Defines the document type as HTML -->
 <html lang="en">
+<!-- Start of the HTML document, with the language set to English -->
 <head>
-    <!-- This defines the document type and sets the language to English -->
+    <!-- Head section for metadata and links -->
+
     <meta charset="UTF-8">
-    <!-- Set the viewport to make the web page responsive -->
+    <!-- Sets the character encoding to UTF-8 -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Sets the compatibility mode for IE -->
+     <!-- Makes the page responsive to different screen sizes -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Title of the web page -->
+     <!-- Ensures compatibility with Internet Explorer -->
     <title>Assignment 08 | CIS2B</title>
-    <!-- The Link to Bootstrap CSS for styling -->
+    <!-- Title of the bootstrap webpage -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- The Link to custom stylesheet -->
     <link rel="stylesheet" href="main.css">
+    <!-- Link to an external CSS file for additional styling -->
+    <style>
+        .list-group-item {
+            border: none;
+        }
+        
+        .list-group {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+    </style>
+     <!-- Internal CSS to style list group items and lists -->
 </head>
 <body>
-    <!-- Main container to center the content -->
+    <!-- Body section containing the main content of the document -->
     <div class="container" style="border: 2px solid black; padding: 0;">
-        <!-- Header section -->
-        <div class="row" style="border-bottom: 2px solid black;">
-            <!-- Full width header -->
+        <!-- Container div with a black border and no padding -->
+        <div class="row" style="border-bottom: 2px solid black; margin: 0;">
+            <!-- Row div with a bottom border -->
             <div class="col-12">
+                <!-- Full-width column -->
                 <header class="text-center my-3" style="border: none;">
+                    <!-- Centered header with top and bottom margin -->
                     <h1>List Of Inventors Killed By Their Own Inventions</h1>
+                    <!-- Main heading of the page -->
                 </header>
             </div>
         </div>
-        
-        <!-- Main content section -->
-        <div class="row" style="border-bottom: 2px solid black;">
-            <!-- Navigation section, spans 1/4 of the main content container's width -->
-            <nav class="col-md-3" style="border-right: 2px solid black;">
-                <ul class="list-group" style="list-style: none; padding-left: 10px;">
-                    <!-- List item for each navigation link -->
-                    <li><a href="#automotive">Automotive</a></li>
-                    <li><a href="#maritime">Maritime</a></li>
-                    <li><a href="#medical">Medical</a></li>
-                    <li><a href="#physics">Physics</a></li>
-                    <li><a href="#myths">Popular Myths and Related Stories</a></li>
+
+        <div class="row" style="border-bottom: 2px solid black; margin: 0;">
+            <!-- Another row div with a bottom border -->
+            <nav class="col-md-3" style="border-right: 2px solid black; margin: 0; padding: 0;">
+                <!-- Navigation column with a right border -->
+                <ul class="list-group">
+                    <!-- Unordered list styled as a list group -->
+                    <li class="list-group-item"><a href="#automotive">Automotive</a></li>
+                    <!-- List item with a link to the Automotive section -->
+                    <li class="list-group-item"><a href="#maritime">Maritime</a></li>
+                    <!-- List item with a link to the Maritime section -->
+                    <li class="list-group-item"><a href="#medical">Medical</a></li>
+                    <!-- List item with a link to the Medical section -->
+                    <li class="list-group-item"><a href="#physics">Physics</a></li>
+                    <!-- List item with a link to the Physics section -->
+                    <li class="list-group-item"><a href="#myths">Popular Myths and Related Stories</a></li>
+                    <!-- List item with a link to the Myths section -->
                 </ul>
             </nav>
-
-            <!-- Main content area, spans 1/2 of the main content container's width -->
-            <main class="col-md-6" style="border-right: 2px solid black;">
-                <!-- Intro section -->
+            <main class="col-md-6" style="border-right: 2px solid black; margin: 0; padding: 0;">
+                 <!-- Main content column with a right border -->
                 <section id="intro">
+                    <!-- Introduction section with an id of intro -->
                     <h2>What is this list?</h2>
+                    <!-- Subheading for the introduction section -->
                     <p>This is a list of inventors whose deaths were in some manner caused by or related to a product, process, procedure, or other innovation that they invented or designed.</p>
+                     <!-- Description paragraph for the list -->
                 </section>
-                <!-- Automotive section -->
+
                 <section id="automotive">
+                    <!-- Automotive section with an id of automotive -->
                     <h2>Automotive</h2>
+                    <!-- Subheading for the section -->
                     <ul>
-                        <li>
-                            <p>Sylvester H. Roper, inventor of the eponymous steam-powered bicycle, died of a heart attack or subsequent crash during a public speed trial in 1896. It is unknown whether the crash caused the heart attack or the heart attack caused the crash.</p>
-                        </li>
-                        <li>
-                            <p>William Nelson, a General Electric employee, invented a new way to motorize bicycles. He then fell off his prototype bike during a test run.</p>
-                        </li>
-                        <li>
-                            <p>Francis Edgar Stanley was killed while driving a Stanley Steamer automobile. He drove his car into a woodpile while attempting to avoid farm wagons traveling side by side on the road.</p>
-                        </li>
+                        <!-- list for inventors -->
+                        <li>Sylvester H. Roper, inventor of the eponymous steam-powered bicycle, died of a heart attack or subsequent crash during a public speed trial in 1896. It is unknown whether the crash caused the heart attack or the heart attack caused the crash.</li>
+                        <li>William Nelson, a General Electric employee, invented a new way to motorize bicycles. He then fell off his prototype bike during a test run.</li>
+                        <li>Francis Edgar Stanley was killed while driving a Stanley Steamer automobile. He drove his car into a woodpile while attempting to avoid farm wagons traveling side by side on the road.</li>
                     </ul>
                 </section>
-                <!-- Maritime section -->
+
                 <section id="maritime">
+                    <!-- Maritime section with an id of maritime -->
                     <h2>Maritime</h2>
+                    <!-- Subheading for the maritime section -->
                     <ul>
-                        <li>
-                            <p>Henry Winstanley built the first lighthouse on the Eddystone Rocks in Devon, England between 1696 and 1698. During the Great Storm of 1703 the lighthouse was completely destroyed with Winstanley and five other men inside. No trace of them was found.</p>
-                        </li>
-                        <li>
-                            <p>Horace Lawson Hunley, Confederate marine engineer and inventor of the first combat submarine, Hunley, died during a trial of his vessel. During a routine test of the submarine, which had already suffered one accident, Hunley took command. After failing to resurface, Hunley and the seven other crew members drowned. The navy salvaged the submarine and put it back into use.</p>
-                        </li>
-                        <li>
-                            <p>Thomas Andrews, Jr. was an Irish born British businessman and shipbuilder. He was a managing director and head of the drafting department of the shipbuilding company Harland and Wolff in Belfast, Ireland. As the naval architect in charge of the plans for the ocean liner RMS Titanic, he was traveling on board that vessel during her maiden voyage when the ship hit an iceberg on April 14th 1912. He perished along with more than 1,500 others. His body was never recovered.</p>
-                        </li>
+                        <li>Henry Winstanley built the first lighthouse on the Eddystone Rocks in Devon, England between 1696 and 1698. During the Great Storm of 1703 the lighthouse was completely destroyed with Winstanley and five other men inside. No trace of them was found.</li>
+                        <li>Horace Lawson Hunley, Confederate marine engineer and inventor of the first combat submarine, Hunley, died during a trial of his vessel. During a routine test of the submarine, which had already suffered one accident, Hunley took command. After failing to resurface, Hunley and the seven other crew members drowned. The navy salvaged the submarine and put it back into use.</li>
+                        <li>Thomas Andrews, Jr. was an Irish born British businessman and shipbuilder. He was a managing director and head of the drafting department of the shipbuilding company Harland and Wolff in Belfast, Ireland. As the naval architect in charge of the plans for the ocean liner RMS Titanic, he was traveling on board that vessel during her maiden voyage when the ship hit an iceberg on April 14th 1912. He perished along with more than 1,500 others. His body was never recovered.</li>
                     </ul>
                 </section>
-                <!-- Medical section -->
+
                 <section id="medical">
+                    <!-- Medical section with an id of medical -->
                     <h2>Medical</h2>
+                     <!-- Subheading for the medical section -->
                     <ul>
-                        <li>
-                            <p>Alexander Bogdanov was a Russian physician, philosopher, science fiction writer and revolutionary of Belarusian ethnicity who experimented with blood transfusion, attempting to achieve eternal youth or at least partial rejuvenation. He died after he took the blood of a student suffering from malaria and tuberculosis, who may have also been the wrong blood type.</p>
-                        </li>
-                        <li>
-                            <p>Thomas Midgley, Jr. was an American engineer and chemist who contracted polio at age 51, leaving him severely disabled. He devised an elaborate system of ropes and pulleys to help others lift him from bed. He became accidentally entangled in the ropes and died of strangulation at the age of 55. However, he is better known for two of his other inventions: the tetraethyl lead (TEL) additive to gasoline, and chlorofluorocarbons (CFCs).</p>
-                        </li>
+                        <li>Alexander Bogdanov was a Russian physician, philosopher, science fiction writer and revolutionary of Belarusian ethnicity who experimented with blood transfusion, attempting to achieve eternal youth or at least partial rejuvenation. He died after he took the blood of a student suffering from malaria and tuberculosis, who may have also been the wrong blood type.</li>
+                        <li>Thomas Midgley, Jr. was an American engineer and chemist who contracted polio at age 51, leaving him severely disabled. He devised an elaborate system of ropes and pulleys to help others lift him from bed. He became accidentally entangled in the ropes and died of strangulation at the age of 55. However, he is better known for two of his other inventions: the tetraethyl lead (TEL) additive to gasoline, and chlorofluorocarbons (CFCs).</li>
                     </ul>
                 </section>
-                <!-- Physics section -->
+
                 <section id="physics">
+                      <!-- Physics section with an id of physics -->
                     <h2>Physics</h2>
+                    <!-- Subheading for the physics section -->
                     <ul>
-                        <li>
-                            <p>Sabin Arnold von Sochocky invented the first radium-based luminescent paint, but eventually died, in 1928, of aplastic anemia resulting from his exposure to the radioactive material.</p>
-                        </li>
-                        <li>
-                            <p>Marie Curie invented the process to isolate radium after co-discovering the radioactive elements radium and polonium. She died of aplastic anemia as a result of prolonged exposure to ionizing radiation emanating from her research materials. The dangers of radiation were not well understood at the time.</p>
-                        </li>
+                        <li>Sabin Arnold von Sochocky invented the first radium-based luminescent paint, but eventually died, in 1928, of aplastic anemia resulting from his exposure to the radioactive material.</li>
+                        <li>Marie Curie invented the process to isolate radium after co-discovering the radioactive elements radium and polonium. She died of aplastic anemia as a result of prolonged exposure to ionizing radiation emanating from her research materials. The dangers of radiation were not well understood at the time.</li>
                     </ul>
                 </section>
-                <!-- Myths section -->
+
                 <section id="myths">
+                    <!-- Myths section with an id of myths -->
                     <h2>Myths</h2>
+                     <!-- Subheading for the myths section -->
                     <ul>
-                        <li>
-                            <p>Perillos of Athens, according to legend, was the first to be roasted in the brazen bull he made for Phalaris of Sicily for executing criminals.</p>
-                        </li>
-                        <li>
-                            <p>Wan Hu, a possibly-apocryphal 16th-century Chinese official, is said to have attempted to launch himself into outer space in a chair to which 47 rockets were attached. The rockets exploded, and it is said that neither he nor the chair were ever seen again.</p>
-                        </li>
-                        <li>
-                            <p>Jimi Heselden, a British entrepreneur who died in 2010 from injuries apparently sustained falling from a cliff while riding his own product, the Segway personal transport system.</p>
-                        </li>
+                        <li>Perillos of Athens, according to legend, was the first to be roasted in the brazen bull he made for Phalaris of Sicily for executing criminals.</li>
+                        <li>Wan Hu, a possibly-apocryphal 16th-century Chinese official, is said to have attempted to launch himself into outer space in a chair to which 47 rockets were attached. The rockets exploded, and it is said that neither he nor the chair were ever seen again.</li>
+                        <li>Jimi Heselden, a British entrepreneur who died in 2010 from injuries apparently sustained falling from a cliff while riding his own product, the Segway personal transport system.</li>
                     </ul>
                 </section>
             </main>
             
-            <!-- Sidebar section, spans 1/4 of the main content container's width -->
-            <aside class="col-md-3">
+            <aside class="col-md-3" style="margin: 0; padding: 0;">
                 <h2>Additional Notes</h2>
+                <!-- Subheading for Additional notes section -->
+
                 <p>Some other interesting and similar links around the web:</p>
-                <ul style="list-style: none; padding-left: 0;">
+                <ul>
                     <li><a href="https://en.wikipedia.org/wiki/Darwin_Awards">Darwin Awards</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/List_of_entertainers_who_died_during_a_performance">List of entertainers who died during a performance</a></li>
                     <li><a href="https://en.wikipedia.org/wiki/List_of_unusual_deaths">List of unusual deaths</a></li>
@@ -131,6 +141,13 @@
             </aside>
         </div>
 
-        <!-- added Footer section -->
-        <div class="row">
-            <!-- Full width footer -->
+        <div class="row" style="margin: 0;">
+            <div class="col-12">
+                <footer class="text-center my-3" style="border-top: none;">
+                    &copy; Copyright 2019
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
